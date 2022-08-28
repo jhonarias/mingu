@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Layout">
+    <meta name="theme-color" content="#ffffff">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700&amp;subset=latin-ext&amp;display=swap" rel="stylesheet">
+    <!-- https://fonts.cdnfonts.com/css/open-sans -->
+    <link href="http://fonts.cdnfonts.com/css/open-sans" rel="stylesheet">
+    <link rel="stylesheet" href="./dist/styles.css">
+    <!-- library juqery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <!-- CDN Fontawesome https://cdnjs.com/libraries/font-awesome https://fontawesome.com/icons/ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js" integrity="sha512-8pHNiqTlsrRjVD4A/3va++W1sMbUHwWxxRPWNyVlql3T+Hgfd81Qc6FC5WMXDC+tSauxxzp1tgiAvSKFu1qIlA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Mingu</title>
+</head>
+
+<body class="home-page">
+    <div class="page-wrap">
+        <div class="main-header_wrap">
+            <header class="main-header">
+                <ul>
+                    <li class="main-header_left">
+                        <button class="badge_button">                           
+                            <span class="badge_button_icon" aria-label="Notificaciones">
+                              <i class="fa-solid fa-bell"></i>
+                            </span>
+                        </button>
+                    </li>
+                    <li class="main-header_center">
+                        <button class="main-header_button">
+                            <span class="button_label">Calle 127 #54a-30 Bogotá</span>
+                        </button>
+                    </li>
+                    <li class="main-header_right">
+                        <button class="badge_button">
+                            <span class="badge_button_label">3</span>
+                            <span class="badge_button_icon" aria-label="Productos">
+                              <i class="fa-solid fa-cart-shopping"></i>
+                            </span>
+                        </button>
+                    </li>
+                </ul>
+            </header>
+        </div>
+        <main class="maincontent">
+            <div class="content-wrap">
+              <div class="container-wrap">
+                  <div class="grid">
+                      <div class="grid-col col-12">
+                          <h2 class="title-h3 no-m-b">Elige tus proteínas</h2>
+                          <p>Selecciona hasta 10 opciones</p>
+                          <ul class="list-horizontal-cards">
+                            <li>
+                              <div class="card-basic card-basic--active">
+                                <div class="card-basic_icon">
+                                  <i class="fa-solid fa-eye"></i>
+                                </div>
+                                <div class="card-basic_content">
+                                  <span class="card-basic_label">Todo</span>
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="card-basic">
+                                <div class="card-basic_icon">
+                                  <i class="fa-solid fa-cow"></i>
+                                </div>
+                                <div class="card-basic_content">
+                                  <span class="card-basic_label">Carne</span>
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="card-basic">
+                                <div class="card-basic_icon">
+                                  <i class="fa-solid fa-drumstick-bite"></i>
+                                </div>
+                                <div class="card-basic_content">
+                                  <span class="card-basic_label">Pollo</span>
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="card-basic">
+                                <div class="card-basic_icon">
+                                  <i class="fa-solid fa-carrot"></i>
+                                </div>
+                                <div class="card-basic_content">
+                                  <span class="card-basic_label">Vaggie</span>
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="card-basic">
+                                <div class="card-basic_icon">
+                                  <i class="fa-solid fa-heart"></i>
+                                </div>
+                                <div class="card-basic_content">
+                                  <span class="card-basic_label">Favorito</span>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="container-wrap">
+                  <div class="grid">
+                      <div class="grid-col col-12">
+                          <div class="card-horizontal">
+                            <div class="card-horizontal_image">
+                              <img src="./src/assets/imgs/categorias/category1.png" alt="Categoria 1">
+                            </div>
+                            <div class="card-horizontal_content">
+                              <div class="card-horizontal_content_favorite is-favorite">
+                                <button class="card-horizontal_content_favorite_button">
+                                  <i class="fa-solid fa-heart"></i>
+                                </button>
+                              </div>
+                              <div class="card-horizontal_content_title">
+                                <span class="title_text">Ropa Vieja</span>
+                              </div>
+                              <div class="card-horizontal_content_description">
+                                <p>Mezcla de pimentones, carne desmechada y cilantro</p>
+                              </div>
+                              <div class="card-horizontal_content_bottom">
+                                <div class="card-horizontal_content_price">
+                                  <span class="price_text">$1.800</span>
+                                </div>
+                                <div class="card-horizontal_content_controls">
+                                  <div class="ui-num-ud">
+                                    <button class="ui-num-ud_button minus" 
+                                      [class.disabled]="disabledMinus"
+                                      attr.aria-labelledby="numLabelDecrease">
+                                      <span class="hide-visually" id="numLabelDecrease">decrease</span>-
+                                    </button>
+                                    <div class="ui-num-ud_input">
+                                      <input 
+                                        type="text"
+                                        value="1"
+                                        id="1"
+                                        readonly="readonly" 
+                                        tabindex="-1" />
+                                    </div>
+                                    <button class="ui-num-ud_button plus" 
+                                      [class.disabled]="disabledPlus"
+                                      attr.aria-labelledby="numLabelIncrease">
+                                      <span class="hide-visually" id="numLabelIncrease">increase</span>+
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="card-horizontal">
+                            <div class="card-horizontal_image">
+                              <img src="./src/assets/imgs/categorias/category1.png" alt="Categoria 1">
+                            </div>
+                            <div class="card-horizontal_content">
+                              <div class="card-horizontal_content_favorite">
+                                <button class="card-horizontal_content_favorite_button">
+                                  <i class="fa-solid fa-heart"></i>
+                                </button>
+                              </div>
+                              <div class="card-horizontal_content_title">
+                                <span class="title_text">Ropa Vieja</span>
+                              </div>
+                              <div class="card-horizontal_content_description">
+                                <p>Mezcla de pimentones, carne desmechada y cilantro</p>
+                              </div>
+                              <div class="card-horizontal_content_bottom">
+                                <div class="card-horizontal_content_price">
+                                  <span class="price_text">$1.800</span>
+                                </div>
+                                <div class="card-horizontal_content_controls">
+                                  <div class="ui-num-ud">
+                                    <button class="ui-num-ud_button minus" 
+                                      [class.disabled]="disabledMinus"
+                                      attr.aria-labelledby="numLabelDecrease">
+                                      <span class="hide-visually" id="numLabelDecrease">decrease</span>-
+                                    </button>
+                                    <div class="ui-num-ud_input">
+                                      <input 
+                                        type="text"
+                                        value="1"
+                                        id="2"
+                                        readonly="readonly" 
+                                        tabindex="-1" />
+                                    </div>
+                                    <button class="ui-num-ud_button plus" 
+                                      [class.disabled]="disabledPlus"
+                                      attr.aria-labelledby="numLabelIncrease">
+                                      <span class="hide-visually" id="numLabelIncrease">increase</span>+
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+        </main>
+    </div>
+    <div class="ui-overlay"></div>
+</body>
+</html>
