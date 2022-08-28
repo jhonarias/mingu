@@ -5683,7 +5683,8 @@ input {
   height: 100%; }
 
 .content-wrap {
-  position: relative; }
+  position: relative;
+  padding-bottom: 2.5rem; }
 
 .hide-visually {
   border: 0;
